@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   title: 'InspiClinic | Fisioterapia e Pilates Clínico em São Paulo',
   description: 'Clínica de fisioterapia especializada em tratamento individualizado, Pilates Clínico e Método Schroth. Excelência em cuidado personalizado no Tatuapé, SP.',
   generator: 'v0.app',
-  keywords: ['fisioterapia', 'pilates clínico', 'método schroth', 'reabilitação', 'tatuapé', 'são paulo'],
+  keywords: ['fisioterapia', 'pilates clínico', 'reabilitação', 'tatuapé', 'são paulo'],
 }
 
 export default function RootLayout({
