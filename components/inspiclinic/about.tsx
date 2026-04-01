@@ -50,7 +50,7 @@ export function About() {
             </div>
 
             {/* Floating Card */}
-            <div className="absolute -bottom-6 -right-6 lg:right-auto lg:-left-6 bg-white rounded-2xl p-6 shadow-xl max-w-[200px] animate-float">
+            <div className="absolute -bottom-6 -right-8 lg:right-auto lg:-left-6 bg-white rounded-2xl p-4 shadow-xl max-w-[200px] animate-float">
               <div className="text-4xl font-serif font-bold text-[var(--gold)] mb-1">
                 10+
               </div>

@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from "react"
 import Link from "next/link"
-import { Menu, X } from "lucide-react"
 import { Logo } from "./logo"
 
 
@@ -17,7 +16,6 @@ const navLinks = [
 
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false)
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
 
   useEffect(() => {
     const handleScroll = () => {
@@ -35,7 +33,7 @@ export function Header() {
           : "bg-transparent py-5"
       }`}
     >
-      <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-6 flex items-center justify-center lg:justify-between">
         {/* Logo */}
         <Logo scrolled={isScrolled} />
 
@@ -60,7 +58,7 @@ export function Header() {
         {/* CTA Button */}
         <div className="hidden lg:block">
           <Link
-                href="https://wa.me/5511956096075?text=Olá,%20gostaria%20de%20agendar%20uma%20avaliação%20na%20clínica.%20Pode%20me%20ajudar%20com%20as%20informações%20e%20disponibilidade?"
+            href="https://wa.me/5511956096075?text=Olá,%20gostaria%20de%20agendar%20uma%20avaliação%20na%20clínica.%20Pode%20me%20ajudar%20com%20as%20informações%20e%20disponibilidade?"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-2.5 bg-[var(--gold)] text-white text-sm font-semibold rounded-full transition-all duration-300 hover:bg-[var(--gold-dark)] hover:shadow-lg hover:shadow-[var(--gold)]/20 hover:-translate-y-0.5"
@@ -68,45 +66,6 @@ export function Header() {
             Agendar Avaliação
           </Link>
         </div>
-
-        {/* Mobile Menu Button */}
-        <button
-          onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-          className={`lg:hidden p-2 transition-colors ${
-            isScrolled ? "text-[var(--foreground)]" : "text-white"
-          }`}
-          aria-label="Toggle menu"
-        >
-          {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
-        </button>
-      </div>
-
-      {/* Mobile Menu */}
-      <div
-        className={`lg:hidden absolute top-full left-0 right-0 bg-white shadow-xl transition-all duration-300 overflow-hidden ${
-          isMobileMenuOpen ? "max-h-[400px] opacity-100" : "max-h-0 opacity-0"
-        }`}
-      >
-        <nav className="flex flex-col p-6 gap-4">
-          {navLinks.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              onClick={() => setIsMobileMenuOpen(false)}
-              className="text-[var(--foreground)] font-medium py-2 border-b border-[var(--border)] last:border-0 hover:text-[var(--gold)] transition-colors"
-            >
-              {link.label}
-            </Link>
-          ))}
-          <Link
-                href="https://wa.me/5511956096075?text=Olá,%20gostaria%20de%20agendar%20uma%20avaliação%20na%20clínica.%20Pode%20me%20ajudar%20com%20as%20informações%20e%20disponibilidade?"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mt-4 text-center px-6 py-3 bg-[var(--gold)] text-white font-semibold rounded-full hover:bg-[var(--gold-dark)] transition-colors"
-          >
-            Agendar Avaliação
-          </Link>
-        </nav>
       </div>
     </header>
   )
