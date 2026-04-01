@@ -53,8 +53,8 @@ export function Hero() {
       </div>
 
       {/* Content */}
-      <motion.div 
-        className="relative z-10 max-w-5xl mx-auto px-6 text-center pt-34 pb-32"
+      <motion.div
+        className="relative z-10 max-w-5xl mx-auto px-6 text-center pt-36 pb-32"
         initial="hidden"
         animate="visible"
         variants={{
@@ -76,17 +76,17 @@ export function Hero() {
             visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: "easeOut" } }
           }}
         >
-          <span className="block text-4xl md:text-5xl lg:text-6xl font-light tracking-wide mb-2">
+          <span className="block text-3xl md:text-4xl lg:text-5xl font-light tracking-wide mb-2">
             Excelência em
           </span>
-          <span className="block text-5xl md:text-6xl lg:text-7xl font-bold text-[#C9A227] tracking-tight">
+          <span className="block text-4xl md:text-5xl lg:text-6xl font-bold text-[#C9A227] tracking-tight">
             Cuidado Individualizado
           </span>
         </motion.h1>
 
         {/* Description */}
         <motion.p
-          className="text-white/80 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed"
+          className="text-white/80 text-md md:text-lg max-w-2xl mx-auto mb-10 leading-relaxed"
           variants={{
             hidden: { opacity: 0, y: 20 },
             visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: "easeOut" } }
@@ -105,17 +105,17 @@ export function Hero() {
           }}
         >
           <Link
-            href="https://wa.me/5511956096075?text=Olá,%20gostaria%20de%20agendar%20uma%20avaliação."
+            href="https://wa.me/5511956096075?text=Olá,%20gostaria%20de%20agendar%20uma%20avaliação%20na%20clínica.%20Pode%20me%20ajudar%20com%20as%20informações%20e%20disponibilidade?"
             target="_blank"
             rel="noopener noreferrer"
-            className="group inline-flex items-center gap-3 px-8 py-4 bg-[#C9A227] text-white font-semibold rounded-full transition-all duration-300 hover:bg-[#9E7B1B] hover:shadow-2xl hover:shadow-[#C9A227]/30 hover:-translate-y-1 animate-glow-pulse"
+            className="group inline-flex items-center gap-3 px-8 py-4 bg-[#C9A227] text-white font-semibold rounded-full transition-all duration-300 hover:bg-[#9E7B1B] hover:shadow-2xl hover:shadow-[#C9A227]/30 hover:-translate-y-1 animate-glow-pulse text-sm"
           >
             Agendar Avaliação
             <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
           </Link>
           <Link
             href="#servicos"
-            className="inline-flex items-center gap-2 px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-medium rounded-full border border-white/30 transition-all duration-300 hover:bg-white/20 hover:border-white/50"
+            className="inline-flex items-center gap-2 px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-medium rounded-full border border-white/30 transition-all duration-300 hover:bg-white/20 hover:border-white/50 text-sm"
           >
             Conheça Nossos Serviços
           </Link>
@@ -123,17 +123,12 @@ export function Hero() {
 
         {/* Social Proof */}
         <motion.div
-          className="mt-16 flex flex-col items-center gap-2"
+          className="mt-12 flex flex-col items-center gap-2"
           variants={{
             hidden: { opacity: 0, scale: 0.9 },
             visible: { opacity: 1, scale: 1, transition: { duration: 0.6, ease: "easeOut" } }
           }}
         >
-          <div className="flex items-center gap-1 mb-2">
-            {[...Array(5)].map((_, i) => (
-              <Star key={i} className="w-5 h-5 text-[#C9A227] fill-[#C9A227]" />
-            ))}
-          </div>
           <p className="text-white font-semibold text-lg">
             +500 pacientes atendidos
           </p>
@@ -159,6 +154,7 @@ export function Hero() {
           />
         </div>
       </motion.div>
+
     </section>
   );
 }

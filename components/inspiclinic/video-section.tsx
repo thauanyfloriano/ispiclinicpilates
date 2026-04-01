@@ -48,28 +48,6 @@ export function VideoSection() {
           </div>
         </AnimatedSection>
 
-        {/* Features */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-12">
-          {[
-            { label: "Equipamentos Modernos", icon: "✦" },
-            { label: "Ambiente Climatizado", icon: "✦" },
-            { label: "Facil Acesso", icon: "✦" },
-            { label: "Estacionamento", icon: "✦" },
-          ].map((feature, index) => (
-            <AnimatedSection
-              key={feature.label}
-              animation="fade-up"
-              delay={index * 100}
-            >
-              <div className="text-center p-4 rounded-xl bg-[var(--secondary)] border border-[var(--border)] hover:border-[var(--gold-border)] hover:shadow-lg transition-all duration-300 group">
-                <span className="text-[var(--gold)] text-lg group-hover:scale-110 inline-block transition-transform">{feature.icon}</span>
-                <p className="text-[var(--foreground)] text-sm font-medium mt-2">
-                  {feature.label}
-                </p>
-              </div>
-            </AnimatedSection>
-          ))}
-        </div>
       </div>
     </section>
   )

@@ -29,7 +29,7 @@ const values = [
 
 export function About() {
   return (
-    <section id="sobre" className="py-24 lg:py-32 bg-[var(--secondary)]">
+    <section id="sobre" className="py-24 lg:py-32 ">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           {/* Image Column */}

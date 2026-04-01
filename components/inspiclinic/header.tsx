@@ -60,7 +60,7 @@ export function Header() {
         {/* CTA Button */}
         <div className="hidden lg:block">
           <Link
-            href="https://wa.me/5511956096075?text=Olá,%20gostaria%20de%20agendar%20uma%20avaliação."
+                href="https://wa.me/5511956096075?text=Olá,%20gostaria%20de%20agendar%20uma%20avaliação%20na%20clínica.%20Pode%20me%20ajudar%20com%20as%20informações%20e%20disponibilidade?"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-2.5 bg-[var(--gold)] text-white text-sm font-semibold rounded-full transition-all duration-300 hover:bg-[var(--gold-dark)] hover:shadow-lg hover:shadow-[var(--gold)]/20 hover:-translate-y-0.5"
@@ -99,7 +99,7 @@ export function Header() {
             </Link>
           ))}
           <Link
-            href="https://wa.me/5511956096075?text=Olá,%20gostaria%20de%20agendar%20uma%20avaliação."
+                href="https://wa.me/5511956096075?text=Olá,%20gostaria%20de%20agendar%20uma%20avaliação%20na%20clínica.%20Pode%20me%20ajudar%20com%20as%20informações%20e%20disponibilidade?"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-4 text-center px-6 py-3 bg-[var(--gold)] text-white font-semibold rounded-full hover:bg-[var(--gold-dark)] transition-colors"

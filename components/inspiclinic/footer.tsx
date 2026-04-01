@@ -121,20 +121,6 @@ export function Footer() {
             <p className="text-white/40 text-sm">
               &copy; 2026 InspiClinic. Todos os direitos reservados.
             </p>
-            <div className="flex gap-6">
-              <Link
-                href="#"
-                className="text-white/40 text-sm hover:text-white/60 transition-colors"
-              >
-                Política de Privacidade
-              </Link>
-              <Link
-                href="#"
-                className="text-white/40 text-sm hover:text-white/60 transition-colors"
-              >
-                Termos de Uso
-              </Link>
-            </div>
           </div>
         </div>
       </div>

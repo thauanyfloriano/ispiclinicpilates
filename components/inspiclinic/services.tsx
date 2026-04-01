@@ -22,10 +22,11 @@ const services = [
   },
   {
     icon: FileCheck,
-    title: "Avaliacao Criteriosa",
+    title: "Eletroestimulação",
     description:
-      "Analise minuciosa das suas caracteristicas individuais para elaboracao de um plano terapeutico e treinamento totalmente estruturado.",
-    highlight: "Fisioterapeutas Especializados",
+      "Técnica que utiliza correntes elétricas de baixa intensidade para estimular músculos, promover contração e auxiliar no alívio da dor de forma segura e eficaz.",
+    highlight:
+      "Eletroestimulação de Alta Performance"
   },
   {
     icon: Gauge,
@@ -52,7 +53,7 @@ const services = [
 
 export function Services() {
   return (
-    <section id="servicos" className="py-24 lg:py-32 bg-[var(--secondary)]">
+    <section id="servicos" className="py-24 lg:py-32 ">
       <div className="max-w-7xl mx-auto px-6">
         {/* Header */}
         <AnimatedSection className="text-center max-w-3xl mx-auto mb-16">
@@ -64,7 +65,7 @@ export function Services() {
           </h2>
           <div className="w-16 h-1 bg-[var(--gold)] mx-auto mb-6" />
           <p className="text-[var(--muted-foreground)] text-lg leading-relaxed">
-            Mais do que acompanhar, nos compreendemos o seu corpo em profundidade. 
+            Mais do que acompanhar, nos compreendemos o seu corpo em profundidade.
             Precisao, tecnica e atencao aos detalhes definem a nossa abordagem.
           </p>
         </AnimatedSection>

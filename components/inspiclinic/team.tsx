@@ -14,19 +14,19 @@ const team = [
     name: "Dra. Mariana Ferrari",
     role: "Coordenadora de Pilates",
     image: "/Mariana.jpeg",
-    bio: "Mestre em fisioterapia traumato-ortopedica, com foco em metodos modernos de correcao postural.",
+    bio: "Mestre em fisioterapia traumato-ortopédica, com atuação em métodos modernos de correção postural, promovendo equilíbrio corporal e melhora da qualidade de vida.",
   },
   {
     name: "Dra. Dafine",
     role: "Fisioterapeuta ",
     image: "/dafine.jpeg",
-    bio: "Atuacao focada em reabilitacao e prevencao de lesoes em atletas e praticantes de atividade fisica.",
+    bio: "Atuação focada em reabilitação e prevenção de lesões em atletas e praticantes de atividade física, com foco na recuperação funcional e qualidade de vida.",
   },
 ]
 
 export function Team() {
   return (
-    <section id="equipe" className="py-24 lg:py-32 bg-[var(--secondary)]">
+    <section id="equipe" className="py-24 lg:py-32 ">
       <div className="max-w-7xl mx-auto px-6">
         {/* Header */}
         <AnimatedSection className="text-center max-w-3xl mx-auto mb-16">
