@@ -19,7 +19,11 @@ export function Header() {
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 50)
+      if (window.innerWidth >= 1024) {
+        setIsScrolled(window.scrollY > 50)
+      } else {
+        setIsScrolled(false)
+      }
     }
     window.addEventListener("scroll", handleScroll)
     return () => window.removeEventListener("scroll", handleScroll)
@@ -27,9 +31,9 @@ export function Header() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
+      className={`absolute lg:fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
         isScrolled
-          ? "bg-white/95 backdrop-blur-md shadow-sm py-3"
+          ? "lg:bg-white/95 lg:backdrop-blur-md lg:shadow-sm lg:py-3"
           : "bg-transparent py-5"
       }`}
     >
