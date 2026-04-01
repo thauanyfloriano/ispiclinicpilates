@@ -7,7 +7,7 @@ const team = [
   {
     name: "Dra. Karina de Paula",
     role: "Fisioterapeuta",
-    image: "/Karina.jpeg",
+    image: "/karina.jpeg",
     bio: "Especialista no tratamento de dores na coluna e escoliose, com aplicacao do Metodo Schroth, reeducacao postural e foco na melhora da qualidade de vida.",
   },
   {
