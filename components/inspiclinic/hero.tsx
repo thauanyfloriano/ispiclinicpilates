@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import { ArrowRight, Star } from "lucide-react";
 import { motion } from "framer-motion";
 
@@ -11,21 +10,7 @@ export function Hero() {
       id="inicio"
       className="relative min-h-screen flex items-center justify-center overflow-hidden"
     >
-      {/* Background Image */}
-      <div className="absolute inset-0">
-        <Image
-          src="/hero-bg.jpeg"
-          alt="InspiClinic - Clinica de Fisioterapia"
-          fill
-          className="object-cover"
-          priority
-        />
-      </div>
 
-
-
-      {/* Gradient Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-black/70" />
 
       {/* Animated Decorative Elements */}
       <div className="absolute top-1/4 left-10 w-32 h-32 border border-[#C9A227]/20 rounded-full animate-pulse hidden lg:block" />
@@ -70,7 +55,7 @@ export function Hero() {
       >
         {/* Title */}
         <motion.h1
-          className="font-serif text-white mb-6"
+          className="font-serif text-[var(--foreground)] mb-6"
           variants={{
             hidden: { opacity: 0, y: 30 },
             visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: "easeOut" } }
@@ -86,7 +71,7 @@ export function Hero() {
 
         {/* Description */}
         <motion.p
-          className="text-white/80 text-md md:text-lg max-w-2xl mx-auto mb-10 leading-relaxed"
+          className="text-[var(--muted-foreground)] text-md md:text-lg max-w-2xl mx-auto mb-10 leading-relaxed"
           variants={{
             hidden: { opacity: 0, y: 20 },
             visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: "easeOut" } }
@@ -115,7 +100,7 @@ export function Hero() {
           </Link>
           <Link
             href="#servicos"
-            className="inline-flex items-center gap-2 px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-medium rounded-full border border-white/30 transition-all duration-300 hover:bg-white/20 hover:border-white/50 text-sm"
+            className="inline-flex items-center gap-2 px-8 py-4 bg-[var(--gold-muted)] text-[var(--gold)] font-medium rounded-full border border-[var(--gold)]/20 transition-all duration-300 hover:bg-[var(--gold)] hover:text-white text-sm"
           >
             Conheça Nossos Serviços
           </Link>
@@ -129,10 +114,10 @@ export function Hero() {
             visible: { opacity: 1, scale: 1, transition: { duration: 0.6, ease: "easeOut" } }
           }}
         >
-          <p className="text-white font-semibold text-lg">
+          <p className="text-[var(--foreground)] font-semibold text-lg">
             +500 pacientes atendidos
           </p>
-          <p className="text-white/60 text-sm">com 98% de satisfação</p>
+          <p className="text-[var(--muted-foreground)] text-sm">com 98% de satisfação</p>
         </motion.div>
       </motion.div>
 
@@ -143,10 +128,10 @@ export function Hero() {
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 1.2 }}
       >
-        <span className="text-white/50 text-xs tracking-widest uppercase">
+        <span className="text-[var(--muted-foreground)] text-xs tracking-widest uppercase">
           Scroll
         </span>
-        <div className="w-6 h-10 border-2 border-white/30 rounded-full flex justify-center pt-2">
+        <div className="w-6 h-10 border-2 border-[var(--gold)]/30 rounded-full flex justify-center pt-2">
           <motion.div
             className="w-1.5 h-1.5 bg-[#C9A227] rounded-full"
             animate={{ y: [0, 12, 0] }}

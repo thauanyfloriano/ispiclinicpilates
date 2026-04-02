@@ -12,15 +12,15 @@ const team = [
   },
   {
     name: "Dra. Mariana Ferrari",
-    role: "Coordenadora de Pilates",
+    role: "Fisioterapeuta",
     image: "/Mariana.jpeg",
-    bio: "Mestre em fisioterapia traumato-ortopédica, com atuação em métodos modernos de correção postural, promovendo equilíbrio corporal e melhora da qualidade de vida.",
+    bio: "Especialista em fisioterapia pélvica, gestação, pilates clínico e pós-parto, com foco na reabilitação, movimento seguro, recuperação e melhora da qualidade de vida.",
   },
   {
-    name: "Dra. Dafine",
-    role: "Fisioterapeuta ",
+    name: "Dra. Dafine Santos",
+    role: "Coordenadora de Pilates ",
     image: "/dafine.jpeg",
-    bio: "Atuação focada em reabilitação e prevenção de lesões em atletas e praticantes de atividade física, com foco na recuperação funcional e qualidade de vida.",
+    bio: "Especialista em reabilitação e cuidados integrados, com foco em movimento, prevenção de dores e melhora da qualidade de vida.",
   },
 ]
 
