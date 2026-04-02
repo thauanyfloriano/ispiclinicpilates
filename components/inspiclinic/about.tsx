@@ -8,22 +8,22 @@ const values = [
   {
     icon: Heart,
     title: "Cuidado Humanizado",
-    description: "Cada paciente e unico e recebe atencao personalizada.",
+    description: "Cada paciente é único e recebe atenção personalizada.",
   },
   {
     icon: Award,
-    title: "Excelencia Tecnica",
-    description: "Profissionais com formacao e certificacoes internacionais.",
+    title: "Excelência Técnica",
+    description: "Profissionais com formação e certificações internacionais.",
   },
   {
     icon: Users,
     title: "Atendimento Individual",
-    description: "Sessoes exclusivas para maximo aproveitamento.",
+    description: "Sessões exclusivas para máximo aproveitamento.",
   },
   {
     icon: Clock,
     title: "Resultados Duradouros",
-    description: "Foco em recuperacao completa e prevencao de lesoes.",
+    description: "Foco em recuperação completa e prevenção de lesões.",
   },
 ]
 
@@ -55,7 +55,7 @@ export function About() {
                 10+
               </div>
               <p className="text-[var(--foreground)] text-sm font-medium">
-                Anos de experiencia em fisioterapia
+                Anos de experiência em fisioterapia
               </p>
             </div>
 
@@ -67,30 +67,30 @@ export function About() {
           {/* Content Column */}
           <AnimatedSection animation="slide-right" className="order-1 lg:order-2">
             <span className="inline-block text-[var(--gold)] text-sm font-semibold tracking-[0.2em] uppercase mb-4">
-              Sobre Nos
+              Sobre Nós
             </span>
             <h2 className="font-serif text-4xl lg:text-5xl text-[var(--foreground)] mb-6">
-              Sobre a <span className="text-[var(--gold)]">Clinica</span>
+              Sobre a <span className="text-[var(--gold)]">Clínica</span>
             </h2>
             <div className="w-16 h-1 bg-[var(--gold)] mb-8" />
 
             <p className="text-[var(--gold)] font-semibold text-lg mb-4">
-              Cuidar do seu corpo e tambem cuidar da sua vida.
+              Cuidar do seu corpo é também cuidar da sua vida.
             </p>
 
             <div className="space-y-4 text-[var(--muted-foreground)] leading-relaxed mb-8">
               <p>
                 A InspiClinic nasceu do sonho da Dra. Karina de oferecer um atendimento 
-                mais humano, com presenca, escuta e proposito.
+                mais humano, com presença, escuta e propósito.
               </p>
               <p>
-                Aqui, cada paciente e unico. Cada sessao e pensada para aliviar dores, 
-                recuperar movimentos e devolver sua confianca. Unimos fisioterapia 
-                baseada em evidencias ao Pilates em um estudio boutique.
+                Aqui, cada paciente é único. Cada sessão é pensada para aliviar dores, 
+                recuperar movimentos e devolver sua confiança. Unimos fisioterapia 
+                baseada em evidências ao Pilates em um estúdio boutique.
               </p>
               <p>
-                Seja para tratar dores cronicas, se recuperar de uma cirurgia, superar 
-                uma lesao ou simplesmente viver com mais leveza e qualidade de vida.
+                Seja para tratar dores crônicas, se recuperar de uma cirurgia, superar 
+                uma lesão ou simplesmente viver com mais leveza e qualidade de vida.
               </p>
             </div>
 

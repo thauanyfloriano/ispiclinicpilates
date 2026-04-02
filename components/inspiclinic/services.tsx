@@ -8,16 +8,16 @@ import { AnimatedSection } from "./animated-section"
 const services = [
   {
     icon: Leaf,
-    title: "Pilates Clinico",
+    title: "Pilates Clínico",
     description:
-      "Conduzido sob perspectiva clinica, onde cada movimento tem proposito terapeutico, garantindo controle biomecanico e execucao refinada.",
-    highlight: "Sessoes Individualizadas",
+      "Conduzido sob perspectiva clínica, onde cada movimento tem propósito terapêutico, garantindo controle biomecânico e execução refinada.",
+    highlight: "Sessões Individualizadas",
   },
   {
     icon: Bone,
-    title: "Metodo Schroth",
+    title: "Método Schroth",
     description:
-      "Tecnica alema com certificacao internacional focada em tratamento das disfuncoes da coluna, correcao postural e reeducacao respiratoria.",
+      "Técnica alemã com certificação internacional focada em tratamento das disfunções da coluna, correção postural e reeducação respiratória.",
     highlight: "Abordagem Conservadora",
   },
   {
@@ -30,24 +30,24 @@ const services = [
   },
   {
     icon: Gauge,
-    title: "Reequilibrio Postural",
+    title: "Reequilíbrio Postural",
     description:
-      "Trabalho corporal inteligente voltado para alinhamento e consciencia corporal, respeitando os limites e potencializando sua evolucao.",
-    highlight: "Postura e Consciencia",
+      "Trabalho corporal inteligente voltado para alinhamento e consciência corporal, respeitando os limites e potencializando sua evolução.",
+    highlight: "Postura e Consciência",
   },
   {
     icon: Heart,
-    title: "Alivio de Dores",
+    title: "Alívio de Dores",
     description:
-      "Tecnicas especificas integradas ao protocolo para prevencao de lesoes e diminuicao de dores cronicas ou agudas.",
-    highlight: "Seguranca e Bem-estar",
+      "Técnicas específicas integradas ao protocolo para prevenção de lesões e diminuição de dores crônicas ou agudas.",
+    highlight: "Segurança e Bem-estar",
   },
   {
     icon: Dumbbell,
     title: "Fortalecimento Global",
     description:
-      "Fortalecimento segmentar e global avancado atraves de exercicios selecionados para devolver sua maxima funcionalidade.",
-    highlight: "Condicionamento Fisico",
+      "Fortalecimento segmentar e global avançado através de exercícios selecionados para devolver sua máxima funcionalidade.",
+    highlight: "Condicionamento Físico",
   },
 ]
 
@@ -58,15 +58,15 @@ export function Services() {
         {/* Header */}
         <AnimatedSection className="text-center max-w-3xl mx-auto mb-16">
           <span className="inline-block text-[var(--gold)] text-sm font-semibold tracking-[0.2em] uppercase mb-4">
-            Nossos Servicos
+            Nossos Serviços
           </span>
           <h2 className="font-serif text-4xl lg:text-5xl text-[var(--foreground)] mb-6">
             Tratamentos <span className="text-[var(--gold)]">Especializados</span>
           </h2>
           <div className="w-16 h-1 bg-[var(--gold)] mx-auto mb-6" />
           <p className="text-[var(--muted-foreground)] text-lg leading-relaxed">
-            Mais do que acompanhar, nos compreendemos o seu corpo em profundidade.
-            Precisao, tecnica e atencao aos detalhes definem a nossa abordagem.
+            Mais do que acompanhar, nós compreendemos o seu corpo em profundidade.
+            Precisão, técnica e atenção aos detalhes definem a nossa abordagem.
           </p>
         </AnimatedSection>
 

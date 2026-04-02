@@ -77,7 +77,7 @@ export function Hero() {
             visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: "easeOut" } }
           }}
         >
-          Na Inspiclinic, o atendimento não é padronizado é cuidadosamente
+          Na Inspiclinic, o atendimento não é padronizado, é cuidadosamente
           construído para você. Cada detalhe é pensado para sua recuperação.
         </motion.p>
 

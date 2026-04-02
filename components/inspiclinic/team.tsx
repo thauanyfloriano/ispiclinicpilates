@@ -8,7 +8,7 @@ const team = [
     name: "Dra. Karina de Paula",
     role: "Fisioterapeuta",
     image: "/karina.jpeg",
-    bio: "Especialista no tratamento de dores na coluna e escoliose, com aplicacao do Metodo Schroth, reeducacao postural e foco na melhora da qualidade de vida.",
+    bio: "Especialista no tratamento de dores na coluna e escoliose, com aplicação do Método Schroth, reeducação postural e foco na melhora da qualidade de vida.",
   },
   {
     name: "Dra. Mariana Ferrari",
@@ -18,7 +18,7 @@ const team = [
   },
   {
     name: "Dra. Dafine Santos",
-    role: "Coordenadora de Pilates ",
+    role: "Coordenadora de Pilates",
     image: "/dafine.jpeg",
     bio: "Especialista em reabilitação e cuidados integrados, com foco em movimento, prevenção de dores e melhora da qualidade de vida.",
   },
@@ -31,15 +31,15 @@ export function Team() {
         {/* Header */}
         <AnimatedSection className="text-center max-w-3xl mx-auto mb-16">
           <span className="inline-block text-[var(--gold)] text-sm font-semibold tracking-[0.2em] uppercase mb-4">
-            Corpo Clinico
+            Corpo Clínico
           </span>
           <h2 className="font-serif text-4xl lg:text-5xl text-[var(--foreground)] mb-6">
-            Especialistas <span className="text-[var(--gold)]">em Voce</span>
+            Especialistas <span className="text-[var(--gold)]">em Você</span>
           </h2>
           <div className="w-16 h-1 bg-[var(--gold)] mx-auto mb-6" />
           <p className="text-[var(--muted-foreground)] text-lg leading-relaxed">
-            Profissionais que unem tecnica, experiencia e cuidado humano para conduzir 
-            sua reabilitacao com seguranca e resultados duradouros.
+            Profissionais que unem técnica, experiência e cuidado humano para conduzir 
+            sua reabilitação com segurança e resultados duradouros.
           </p>
         </AnimatedSection>
 

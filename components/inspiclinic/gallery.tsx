@@ -86,7 +86,7 @@ export function Gallery() {
                 Pronto para Iniciar sua <span className="text-[var(--gold)]">Recuperação</span>?
               </h3>
               <p className="text-white/70 text-lg max-w-xl mx-auto mb-8">
-                Agende sua avaliacao e descubra como podemos ajudar voce a viver sem dor
+                Agende sua avaliação e descubra como podemos ajudar você a viver sem dor
                 e com mais qualidade de vida.
               </p>
 

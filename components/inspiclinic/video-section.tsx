@@ -12,14 +12,14 @@ export function VideoSection() {
         {/* Header */}
         <AnimatedSection className="text-center max-w-3xl mx-auto mb-12">
           <span className="inline-block text-[var(--gold)] text-sm font-semibold tracking-[0.2em] uppercase mb-4">
-            Nosso Espaco
+            Nosso Espaço
           </span>
           <h2 className="font-serif text-4xl lg:text-5xl text-[var(--foreground)] mb-6">
-            Conheca a <span className="text-[var(--gold)]">InspiClinic</span>
+            Conheça a <span className="text-[var(--gold)]">InspiClinic</span>
           </h2>
           <div className="w-16 h-1 bg-[var(--gold)] mx-auto mb-6" />
           <p className="text-[var(--muted-foreground)] text-lg leading-relaxed">
-            Um ambiente pensado para o seu conforto e recuperacao, 
+            Um ambiente pensado para o seu conforto e recuperação, 
             com equipamentos modernos e uma atmosfera acolhedora.
           </p>
         </AnimatedSection>
@@ -41,7 +41,7 @@ export function VideoSection() {
                 poster="/hero-bg.jpeg"
                 src="/vd.mp4"
               >
-                Seu navegador nao suporta videos.
+                Seu navegador não suporta vídeos.
               </video>
             </div>
 

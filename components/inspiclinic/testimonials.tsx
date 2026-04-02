@@ -5,32 +5,32 @@ import { AnimatedSection } from "./animated-section"
 
 const testimonials = [
   {
-    text: "A Karina e uma fisioterapeuta extremamente competente. Cheguei a clinica com uma hernia de disco e dores lombares tao intensas que mal conseguia levantar a perna. Apos algumas sessoes, a dor aguda desapareceu.",
+    text: "A Karina é uma fisioterapeuta extremamente competente. Cheguei à clínica com uma hérnia de disco e dores lombares tão intensas que mal conseguia levantar a perna. Após algumas sessões, a dor aguda desapareceu.",
     author: "Paolo Barone",
-    service: "Reabilitacao",
+    service: "Reabilitação",
   },
   {
-    text: "A Dra Karina e uma profissional incrivel, dedicada e extremamente competente! Seu comprometimento em nos fazer sair sem dor e admiravel. Cada atendimento reflete cuidado, atencao e excelencia.",
+    text: "A Dra. Karina é uma profissional incrível, dedicada e extremamente competente! Seu comprometimento em nos fazer sair sem dor é admirável. Cada atendimento reflete cuidado, atenção e excelência.",
     author: "Lucelia Monfardini",
     service: "Fisioterapia",
   },
   {
-    text: "INSPICLINIC fisioterapia e pilates conta com profissionais de alto nivel, em especial Dra Karina, proporcionando um ambiente agradavel, bem estruturado e obtendo excelentes resultados.",
+    text: "INSPICLINIC fisioterapia e pilates conta com profissionais de alto nível, em especial Dra. Karina, proporcionando um ambiente agradável, bem estruturado e obtendo excelentes resultados.",
     author: "Maria Eliana Perasolo",
     service: "Pilates & Fisio",
   },
   {
-    text: "Comecei ha uma semana, mas ja posso dizer que estou gostando muito! O espaco e lindo, acolhedor e muito bem cuidado, o que torna a experiencia ainda mais agradavel.",
+    text: "Comecei há uma semana, mas já posso dizer que estou gostando muito! O espaço é lindo, acolhedor e muito bem cuidado, o que torna a experiência ainda mais agradável.",
     author: "Flavia Geraldes Rosa",
-    service: "Pilates Clinico",
+    service: "Pilates Clínico",
   },
   {
-    text: "Excelente! Lugar bem cuidado, limpo e as profissionais otimas. Recomendo e afirmo: muito bom. Parabens, Dra Karina e toda a equipe!",
+    text: "Excelente! Lugar bem cuidado, limpo e as profissionais ótimas. Recomendo e afirmo: muito bom. Parabéns, Dra. Karina e toda a equipe!",
     author: "Cassia",
-    service: "Tratamento Continuo",
+    service: "Tratamento Contínuo",
   },
   {
-    text: "Minha experiencia na Inspire tem sido excepcional. O cuidado e a atencao das profissionais fazem toda a diferenca. Notei uma melhora significativa na minha postura.",
+    text: "Minha experiência na Inspire tem sido excepcional. O cuidado e a atenção das profissionais fazem toda a diferença. Notei uma melhora significativa na minha postura.",
     author: "Fawzie Ibrahim",
     service: "Pilates & Fisioterapia",
   },
@@ -50,8 +50,8 @@ export function Testimonials() {
           </h2>
           <div className="w-16 h-1 bg-[var(--gold)] mx-auto mb-6" />
           <p className="text-[var(--muted-foreground)] text-lg leading-relaxed">
-            A satisfacao e a recuperacao de nossos pacientes sao o nosso maior orgulho. 
-            Conheca as experiencias de quem confia na Inspiclinic.
+            A satisfação e a recuperação de nossos pacientes são o nosso maior orgulho. 
+            Conheça as experiências de quem confia na Inspiclinic.
           </p>
         </AnimatedSection>
 
