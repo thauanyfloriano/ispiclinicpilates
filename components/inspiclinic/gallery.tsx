@@ -12,6 +12,9 @@ const galleryImages = [
   { src: "/galeria3.jpeg", alt: "Galeria Inspiclinic 4" },
   { src: "/galeria5.jpeg", alt: "Galeria Inspiclinic 5" },
   { src: "/galeria6.jpeg", alt: "Galeria Inspiclinic 6" },
+  { src: "/galeria7.jpeg", alt: "Galeria Inspiclinic 7" },
+  { src: "/galeria8.jpeg", alt: "Galeria Inspiclinic 8" },
+  { src: "/galeria9.jpeg", alt: "Galeria Inspiclinic 9" },
 ]
 
 export function Gallery() {

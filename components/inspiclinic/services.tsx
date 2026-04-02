@@ -24,7 +24,7 @@ const services = [
     icon: FileCheck,
     title: "Eletroestimulação",
     description:
-      "Técnica que utiliza correntes elétricas de baixa intensidade para estimular músculos, promover contração e auxiliar no alívio da dor de forma segura e eficaz.",
+      "A eletroestimulação muscular (EMS) é uma tecnologia que ativa profundamente os músculos por meio de impulsos elétricos, potencializando seus treinos de forma rápida, segura e eficiente.",
     highlight:
       "Eletroestimulação de Alta Performance"
   },
